@@ -10,31 +10,14 @@
   height: 70vh;
 }
 
-.mt-3vh {
-  margin-top: 3vh;
+.clip-hero {
+  clip-path: polygon(0% 0%,100% 0%,100% 85%,50% 100%,0% 85%);
+}
+.clip-auction {
+  clip-path: polygon(50% 15%,100% 0%,100% 85%,50% 100%,0% 85%,0% 0%);
+  margin-top: -5vh;
 }
 
-.dark-triangle {
-  position: relative;
-  height: 0.2vh;
+.section-shadow {
+  filter: drop-shadow(-1px 6px 3px rgba(0, 0, 0, 0.5));
 }
-
-.dark-triangle::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 4vw 49vw 0vw 49vw;
-  border-color: rgb(31 41 55 / var(--tw-bg-opacity)) transparent transparent transparent;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-}
-
-.reverse::before {
-  border-width: 0vw 49vw 4vw 49vw;
-  border-color: transparent transparent rgb(31 41 55 / var(--tw-bg-opacity)) transparent;
-  transform: translateX(-50%);
-}
-

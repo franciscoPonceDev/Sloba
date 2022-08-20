@@ -6,10 +6,14 @@ import Auction from '../components/Auction';
 
 function Home() {
   return (
-    <div>
+    <div className="bg-gray-800">
       <Navbar />
       <Hero />
       <Auction />
+      <Auction />
+      <Auction />
+      <Auction />
+
     </div>
   );
 }
