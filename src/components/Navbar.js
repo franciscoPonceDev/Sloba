@@ -52,10 +52,10 @@ export default function Navbar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-												  item.current
-												    ? 'bg-gray-900 text-white'
-												    : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-												  'px-3 py-2 rounded-md text-sm font-medium',
+                          item.current
+                            ? 'bg-gray-900 text-white'
+                            : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'px-3 py-2 rounded-md text-sm font-medium',
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -101,8 +101,8 @@ export default function Navbar() {
                           <a
                             href="#"
                             className={classNames(
-														  active ? 'bg-gray-100' : '',
-														  'block px-4 py-2 text-sm text-gray-700',
+                              active ? 'bg-gray-100' : '',
+                              'block px-4 py-2 text-sm text-gray-700',
                             )}
                           >
                             Your Profile
