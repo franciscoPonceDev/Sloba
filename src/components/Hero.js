@@ -1,9 +1,10 @@
 import React from 'react';
 import DarkPageBreak from './DarkPageBreak';
+import ReverseDarkPageBreak from './ReverseDarkPageBreak';
 
 const Hero = () => (
   <div>
-    <main className="h-50vh my-24 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main className="h-35vh my-24 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
           <span className="block xl:inline">Data to enrich your</span>

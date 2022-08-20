@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.h-50vh {
-  height: 50vh;
+.h-35vh {
+  height: 35vh;
+}
+
+.h-70vh {
+  height: 70vh;
+}
+
+.mt-3vh {
+  margin-top: 3vh;
 }
 
 .dark-triangle {
   position: relative;
-  height: 1vh;
+  height: 0.2vh;
 }
 
 .dark-triangle::before {
@@ -22,5 +30,11 @@
   border-color: rgb(31 41 55 / var(--tw-bg-opacity)) transparent transparent transparent;
   left: 50%;
   transform: translateX(-50%) translateY(100%);
+}
+
+.reverse::before {
+  border-width: 0vw 49vw 4vw 49vw;
+  border-color: transparent transparent rgb(31 41 55 / var(--tw-bg-opacity)) transparent;
+  transform: translateX(-50%);
 }
 
